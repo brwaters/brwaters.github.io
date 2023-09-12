@@ -1,0 +1,116 @@
+% RESUME
+\documentclass{resume} 
+
+% Lipsum Generator
+\usepackage{lipsum}
+\usepackage{ulem}
+
+% DOCUMENT
+\begin{document}
+
+% FIRSTNAME LASTNAME
+% =======================================================
+\begin{namesection}
+    {Brendon Waters}
+\end{namesection}
+
+% CONTACT INFORMATION
+% =======================================================
+\begin{contactsection}
+    {Victoria, BC}
+    {\href{mailto:redacted@redacted.com}{\sout{redacted@redacted.com}}}
+    {\href{https://github.com/brwaters}{github.com/brwaters}}
+    {\href{https://www.linkedin.com/in/brendonwaters/}{linkedin.com/in/brendonwaters/}}
+\end{contactsection}
+
+% EDUCATION
+% =======================================================
+\begin{headersection}
+    {Education}
+\end{headersection}
+\begin{generalsection}
+    {University of Victoria}
+    {09 2021 - 06 2026}
+    {Bachelor of Software Engineering}
+    {Victoria, BC}
+\end{generalsection}
+\begin{generalsection}
+    {Camosun College}
+    {09 2019 - 04 2021}
+    {Information and Computer Systems Diploma}
+    {Victoria, BC}
+\end{generalsection}
+
+% EXPERIENCE
+% =======================================================
+\begin{headersection}
+    {Experience}
+    
+    \begin{itemsection}
+        {Discovery Insurance, part of Arthur J. Gallagher Canada Limited}
+        {09 2014 - 09 2019}
+        {Personal Lines Account Manager}
+        {Victoria, BC}
+
+        \item Ensured customer satisfaction by providing clients with comprehensive knowledge of all Personal Lines insurance products not limited to Home, Tenant, Condo, Automobile, Watercraft and Special Event Liability
+        \item Provided risk assessment encompassing each clients entire portfolio to minimize client exposure
+        \item Maintain excellent recording keeping by processing all client material changes within 5 business days
+        \item Convert eligible clients to private auto insurance with 75\% conversion rate
+    \end{itemsection}
+    \itemsectionskip
+    \begin{itemsection}
+        {Ministry of Forestry, Lands and Natural Resources, BC Government}
+        {04 2021 - 08 2021}
+        {Workstation Refresh Technician}
+        {Victoria, BC}
+
+        \item Communicate with clients via phone/email to collect user workflow data aggregated by location
+        \item Enter collected data in Excel template and process user data through in-house ordering system
+        \item Perform quality control inspection and submit to direct report
+    \end{itemsection}
+\end{headersection}
+
+% PROJECTS
+% =======================================================
+\begin{headersection}
+    {Projects}
+    \begin{projectitemsection}
+	    {LateX Resume}
+        {Personal Project}
+        {\href{https://brwaters.github.io}{brwaters.github.io}}
+
+        \item Used Unix CLI to install pdflatex
+        \item Create resume using LateX packages
+        \item Utilize git for version control and to easily push to Github Pages
+    \end{projectitemsection}
+    \projectitemsectionskip
+    \begin{projectitemsection}
+        {Red Box Dash}
+        {Personal Project}
+        {\href{https://example.com}{example.com}}
+        
+        \item \lipsum[2][3-4]
+        \item \lipsum[10][1-6]
+        \item \lipsum[4][7-9]
+    \end{projectitemsection}
+\end{headersection}
+
+% COMPETENCIES
+% =======================================================
+\begin{headersection}
+    {Competencies}
+    \renewcommand{\arraystretch}{1.25}
+    \begin{table}[!ht]
+        \begin{tabularx}{\textwidth}{>{\RaggedLeft}p{5em}*1{X}}
+         {\tableHeader{Technical}} & 
+            \lipsum[2][3-4] \\
+         {\tableHeader{General}} & 
+            Communication, Responsibility, Avid Learner, Integrity, Adaptable \\
+         {\tableHeader{Language}} & 
+            Java, C, Python, SQL, JavaScript, Unix CLI \\
+        \end{tabularx}
+    \end{table}
+\end{headersection}
+
+\end{document}
+
